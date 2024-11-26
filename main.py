@@ -12,6 +12,9 @@ weather_data = fetch_data.weather_data
 functions_module.welcome_message("Ella")
 
 # run get city name and assign result to a variable
-user_city = functions_module.get_city_name()
+# user_city = functions_module.get_city_name()
 # print(user_city)
 
+
+valid_user_city = functions_module.input_validate()
+print(valid_user_city)
