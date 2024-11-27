@@ -15,6 +15,7 @@ functions_module.welcome_message("Ella")
 # get user input with a valid data type
 valid_user_city = functions_module.input_validation()
 
+
 # check user input is in weather_data, display data
 functions_module.display_data(valid_user_city)
 
